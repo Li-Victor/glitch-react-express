@@ -1,0 +1,15 @@
+{
+  "name": "react-express",
+  "version": "1.0.0",
+  "description": "super simple react-express boilerplate",
+  "main": "index.js",
+  "author": "Victor Li",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
