@@ -1,7 +1,7 @@
 {
   "name": "react-express",
   "version": "1.0.0",
-  "description": "super simple react-express boilerplate",
+  "description": "super simple react with express boilerplate for glitch. Uses version 0.9.5 react-scripts from create-react-app",
   "main": "index.js",
   "author": "Victor Li",
   "license": "MIT",
