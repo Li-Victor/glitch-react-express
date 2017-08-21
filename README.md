@@ -1,26 +1,15 @@
 # React with Express In Glitch
 
-Create-react-app with express boilerplate for [**Glitch.com**](https://glitch.com/). 
+React app with express boilerplate for [**Glitch.com**](https://glitch.com/). 
 
-Uses version 0.9.5 react-scripts from create-react-app. Version 1.x react-scripts goes over the limit of space on the container.
+Uses version 0.9.5 react-scripts from create-react-app. Version 1.x react-scripts goes over the limit of space on the glitch container.
 
-## Install in Glitch
-
-From a newly created project in Glitch. From the top-left `Project Info` menu, click on `Advanced Options` and press `Import from Github`. In the popup, enter `Li-Victor/glitch-react-express` and hit ok.
-
-From the `Advanced Options`, click on `Open Console` and a new tab with a terminal for your project will popup. 
-
-Enter the following commands in the terminal, (this step might take awhile):
-
-```
-1. cd views
-2. yarn install
-3. yarn build
-4. refresh
-```
-
-The app should now be live. 
+[**Project Link**](https://glitch.com/edit/#!/react-express). Feel free to remix it to try for yourself.
 
 ## Updating React
 
-Any changes to 
+**Make sure the start script from package.json is `"start": "node index.js"`**. From the top-left `Project Info` menu, click on `Advanced Options` and then `Open Console`. A new tab with a terminal for your project will popup. Enter the command `yarn build`. You can close the terminal when it is finished building.
+
+## Live updates coming from create-react-app
+
+If you want to have the live change updates from create-react-app, go to package.json and change the start command to be `cd views && yarn start`. So it should be `"start": "cd views && yarn start"`. When you're done with live updates with react, **follow the instructions from the section `Updating React` exactly**.
