@@ -13,3 +13,5 @@ Uses version 0.9.5 react-scripts from create-react-app. Version 1.x react-script
 ## Live updates coming from create-react-app
 
 If you want to have the live change updates from create-react-app, go to package.json and change the start command to be `cd views && yarn start`. So it should be `"start": "cd views && yarn start"`. When you're done with live updates with react, **follow the instructions from the section `Updating React` exactly**.
+
+This project is an extension of https://support.glitch.com/t/create-react-app-support/1295/2, and [**example glitch project**](https://glitch.com/edit/#!/5-passwords) from this blog post https://daveceddia.com/create-react-app-express-production/
