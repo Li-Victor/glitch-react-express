@@ -1,8 +1,8 @@
 {
   "name": "react-express",
   "version": "1.0.0",
-  "description": "super simple react with express boilerplate for glitch. Uses version 0.9.5 react-scripts from create-react-app",
-  "main": "index.js",
+  "description": "create-react-app with express boilerplate for glitch. Uses version 0.9.5 react-scripts from create-react-app",
+  "main": "app.js",
   "author": "Victor Li",
   "license": "MIT",
   "dependencies": {
@@ -10,6 +10,7 @@
     "express": "^4.15.4"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node app.js",
+    "build": "cd views && yarn build && refresh"
   }
 }
